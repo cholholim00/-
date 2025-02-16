@@ -11,13 +11,13 @@
 
  playButton.addEventListener("click", play);
  resetButton.addEventListener("click",reset);
- userValue.addEventListener("focus",function() {
+ userInput.addEventListener("focus",function() {
     userInput.value = "";
 });
 
  function pickRandomNum() {
     computerNum = Math.floor(Math.random()*100)+1;
-    console.log("정답 :",computerNum);
+    // console.log("정답 :",computerNum);
     correctAnswer.textContent = `정답은: ${computerNum}입니다!`;
  }
 
