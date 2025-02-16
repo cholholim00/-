@@ -42,6 +42,7 @@
         
     }else {
         resultArea.textContent = "🎉 축하해요! 맞추셨습니다~!";
+        gameOver = true;
         
     }
 
