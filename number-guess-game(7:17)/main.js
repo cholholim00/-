@@ -11,8 +11,8 @@
 
  playButton.addEventListener("click", play);
  resetButton.addEventListener("click",reset);
- userValue.addEventListener("focus",function(){
-    userInput="";
+ userValue.addEventListener("focus",function() {
+    userInput.value = "";
 });
 
  function pickRandomNum() {
