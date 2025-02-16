@@ -17,8 +17,7 @@
 
  function pickRandomNum() {
     computerNum = Math.floor(Math.random()*100)+1;
-    // console.log("정답 :",computerNum);
-    correctAnswer.textContent = `정답은: ${computerNum}입니다!`;
+     console.log("정답 :",computerNum);
  }
 
  function play() {
