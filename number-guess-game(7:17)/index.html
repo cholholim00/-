@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자 맞추기 게임 최종본</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 숫자 맞추기 게임 🔢</h1>
+        <p id="result-area">게임을 시작해보세요!</p>
+        <p id="answer-area">⭐️정답⭐️ <span id="correct-answer"></span></p>
+        <p id="chance-area">남은 기회: <span id="chance-count">3</span>번</p>
+        <input type="number" id="user-input" placeholder="1 ~ 100 입력" />
+        <div class="buttons">
+            <button id="play-button">🎮 도전!</button>
+            <button id="reset-button">🔄 다시하기</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

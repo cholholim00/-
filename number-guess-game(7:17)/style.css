@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-button {
+    background: #ff7eb3;
+    color: white;
+}
+
+#reset-button {
+    background: #7ebfff;
+    color: white;
+}
+
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
